@@ -5,7 +5,7 @@
   "main": "index.css",
   "license": "MIT",
   "scripts": {
-    "website": "poi --config src/index.js"
+    "website": "poi --config build/website.config.js"
   },
   "devDependencies": {
     "cssbag": "^0.1.0",
