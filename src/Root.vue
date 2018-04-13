@@ -1,10 +1,16 @@
 <template>
-  <div id="app"></div>
+  <div id="app">
+    <expandable-modal></expandable-modal>
+  </div>
 </template>
 
 <script>
+  import ExpandableModal from './ExpandableModal.vue'
   export default {
-    name: 'CimationRoot'
+    name: 'CimationRoot',
+    components: {
+      ExpandableModal
+    }
   }
 </script>
 
@@ -18,5 +24,9 @@
 
   * {
     box-sizing: border-box;
+  }
+
+  #app {
+    padding: 16px;
   }
 </style>
