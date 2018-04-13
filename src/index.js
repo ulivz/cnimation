@@ -1,4 +1,3 @@
-// import './index.css'
 
 document.getElementById('app').html('APP')
 console.log('App')
