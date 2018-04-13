@@ -1,0 +1,14 @@
+{
+  "name": "cnimation",
+  "version": "1.0.0",
+  "description": "lovely css animation collection.",
+  "main": "index.css",
+  "license": "MIT",
+  "scripts": {
+    "website": "poi --config src/index.js"
+  },
+  "devDependencies": {
+    "cssbag": "^0.1.0",
+    "poi": "^10.0.3"
+  }
+}
