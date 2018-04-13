@@ -41,6 +41,7 @@
 <style lang="scss">
   .expandable-modal {
     position: relative;
+    text-align: left;
     width: 10px;
     height: 10px;
     color: white;
@@ -49,10 +50,11 @@
       line-height: 80px;
       text-align: center;
       height: 80px;
-      background-color: #E75973;
+      background-color: #FAFAFA;
       border-radius: 50%;
       cursor: pointer;
-      box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+      color: #C08E6F;
+      box-shadow: 0 2px 2px #C08E6F;
     }
     .expanded-content {
       box-sizing: border-box;

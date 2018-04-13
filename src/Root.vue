@@ -1,7 +1,11 @@
 <template>
   <div id="app">
     <div class="header">CNIMATION</div>
-    <expandable-modal></expandable-modal>
+    <div class="column" style="color: #ffffff; background-color: #c9af73">
+      <div class="column-title">― Expandable Modal ―</div>
+      <expandable-modal></expandable-modal>
+    </div>
+
   </div>
 </template>
 
@@ -43,6 +47,16 @@
       background-color: #F7F8F4;
       background-position: center;
       background-repeat: no-repeat;
+    }
+    .column {
+      max-width: 100%;
+      padding: 40px;
+      text-align: center;
+      margin: auto;
+      height: 600px;
+      .column-title {
+        letter-spacing: 3px;
+      }
     }
   }
 </style>
