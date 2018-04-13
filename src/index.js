@@ -1,5 +1,9 @@
+import Vue from 'vue'
+import Root from './Root.vue'
 
-document.getElementById('app').html('APP')
-console.log('App')
-console.log('App')
-console.log('App')
+new Vue({
+  el: '#app',
+  render(h) {
+    return h(Root)
+  }
+})

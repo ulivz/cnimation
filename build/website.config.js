@@ -10,9 +10,6 @@ module.exports = {
     inject: false
   },
   port: 4000,
-  define: {
-    __CINIMATION_VERSION__: pkg.version
-  },
   postcss: [require('cssbag')()],
   production: {
     html: false,
