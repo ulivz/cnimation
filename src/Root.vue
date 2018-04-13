@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <div class="header">CNIMATION</div>
     <expandable-modal></expandable-modal>
   </div>
 </template>
@@ -14,7 +15,7 @@
   }
 </script>
 
-<style>
+<style lang="scss">
   body {
     font: 16px/1.4 -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     margin: 0;
@@ -27,6 +28,21 @@
   }
 
   #app {
-    padding: 16px;
+    .header {
+      letter-spacing: 5px;
+      font-weight: 200;
+      font-size: 50px;
+      height: 140px;
+      line-height: 140px;
+      max-width: 1010px;
+      margin: 0 auto;
+      top: 0;
+      left: 0;
+      text-align: center;
+      color: #232020;
+      background-color: #F7F8F4;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
   }
 </style>
