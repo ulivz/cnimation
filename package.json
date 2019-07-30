@@ -9,6 +9,6 @@
   },
   "devDependencies": {
     "cssbag": "^0.1.0",
-    "poi": "^10.0.3"
+    "poi": "^12.7.1"
   }
 }
